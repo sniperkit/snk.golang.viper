@@ -11,8 +11,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/spf13/viper"
+	// external
 	crypt "github.com/xordataexchange/crypt/config"
+
+	// internal
+	"github.com/sniperkit/snk.golang.viper"
 )
 
 type remoteConfigProvider struct{}

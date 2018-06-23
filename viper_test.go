@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
+	// external
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
-
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"
 )
